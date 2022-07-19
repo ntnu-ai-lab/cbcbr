@@ -1,2 +1,2 @@
 # cbcbr
-Repository for the CBCBR related experiments. Work is still in progress.
+Repository for the CBCBR related experiments. The preparation of code is still in progress.
