@@ -12,4 +12,4 @@ This is the repository for the CBCBR related experiments described in the IJCAI 
 
 - The application can then be run according to the instructions in https://github.com/ntnu-ai-lab/mycbr-rest, by  running the command: java -DMYCBR.PROJECT.FILE="./KPValideringBayesianFylkeTheme.prj" -jar ./target/mycbr-rest-2.0.jar
 
-- The code should be opened with Jupyter Notebook. The script named "Create training and test data" should then be runned.
+- The code should be opened with Jupyter Notebook. The script named "Create training and test data" should then be runned first.
