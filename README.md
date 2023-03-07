@@ -1,6 +1,8 @@
 # Instructions to run the code
 
-This is the repository for the CBCBR related experiments described in the IJCAI paper (https://www.ijcai.org/proceedings/2022/709). To run the code, MSSQL Server needs to be installed and a database named IJCAI2022 should be in place. It is also neccesary to import Flogard et al.'s dataset into a table named dbo.BayesianDynamicChecklistLocalDb within the IJCAI2022 database. 
+This is the repository for the CBCBR related experiments described in the IJCAI paper (https://www.ijcai.org/proceedings/2022/709). 
+
+-To run the code, MSSQL 2019 Server (or later versions) needs to be installed and a database named IJCAI2022 should be in place. It is also neccesary to import Flogard et al.'s dataset into a table named dbo.BayesianDynamicChecklistLocalDb within the IJCAI2022 database. The dataset is located at https://ieee-dataport.org/open-access/labour-inspection-checklist-content
 
 -Before running the code, the mycbr rest api should be downloaded and installed (see https://github.com/ntnu-ai-lab/mycbr-rest). 
 
@@ -10,4 +12,4 @@ This is the repository for the CBCBR related experiments described in the IJCAI 
 
 -The application can then be run according to the instructions in https://github.com/ntnu-ai-lab/mycbr-rest, by  running the command: java -DMYCBR.PROJECT.FILE="./KPValideringBayesianFylkeTheme.prj" -jar ./target/mycbr-rest-2.0.jar
 
-The code should be opened with Jupyter Notebook. 
+-The code should be opened with Jupyter Notebook. 
