@@ -4,7 +4,7 @@ This is the repository for the CBCBR related experiments described in the IJCAI 
 
 -To run the code, MSSQL 2019 Server (or later versions) needs to be installed and a database named IJCAI2022 should be in place. It is also neccesary to import Flogard et al.'s dataset into a table named dbo.BayesianDynamicChecklistLocalDb within the IJCAI2022 database. The dataset is located at https://ieee-dataport.org/open-access/labour-inspection-checklist-content
 
--Before running the code, the mycbr rest api should be downloaded and installed (see https://github.com/ntnu-ai-lab/mycbr-rest). 
+-The mycbr rest api should be downloaded and installed before running the code (see https://github.com/ntnu-ai-lab/mycbr-rest). 
 
 -After that, this repository should be downloaded. Then the file named mycbr-3.3-SNAPSHOT needs to be copied from this repository and pasted in to the folder named \lib\no\ntnu\mycbr\mycbr-sdk\myCBR\myCBR\3.3-SNAPSHOT in the folder where the newly installed mycbr rest api is located. It may be neccesary to re-run mvn clean install. 
 
